@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'cf8ec44465d24438ad9d08975dc92e72',
+  rootNotionPageId: 'Haoming-s-blog-cf8ec44465d24438ad9d08975dc92e72',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Haoming Wang Blog',
-  domain: 'https://www.notion.so/cf8ec44465d24438ad9d08975dc92e72',
+  domain: 'https://www.notion.so/Haoming-s-blog-cf8ec44465d24438ad9d08975dc92e72',
   author: 'Haoming Wang',
 
   // open graph metadata (optional)

@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Haoming Wang Blog',
-  domain: 'https://www.notion.so/Haoming-s-blog-cf8ec44465d24438ad9d08975dc92e72',
+  domain: 'https://haoming.vercel.app/',
   author: 'Haoming Wang',
 
   // open graph metadata (optional)

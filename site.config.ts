@@ -2,11 +2,11 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'Haoming-s-blog-cf8ec44465d24438ad9d08975dc92e72',
+  rootNotionPageId: 'cf8ec44465d24438ad9d08975dc92e72',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: null,
+  rootNotionSpaceId: 'roasted-delphinium-13e',
 
   // basic site info (required)
   name: 'Haoming Wang Blog',

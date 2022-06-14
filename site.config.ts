@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Haoming Wang Blog',
-  domain: 'https://haoming.vercel.app/',
+  domain: 'haoming.vercel.app',
   author: 'Haoming Wang',
 
   // open graph metadata (optional)

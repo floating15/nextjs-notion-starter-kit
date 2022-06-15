@@ -195,8 +195,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
 //   const isBlogPost =
 //     block?.type === 'page' && block?.parent_table === 'collection'
   const isBlogPost =
-    block.type === 'page' &&
-    (block.parent_table === 'block' || block.parent_table === 'collection')
+    block?.type === 'page' &&
+    (block?.parent_table === 'block' || block?.parent_table === 'collection')
   
   const showTableOfContents = !!isBlogPost
   const minTableOfContentsItems = 3

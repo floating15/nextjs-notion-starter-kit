@@ -17,9 +17,9 @@ export default siteConfig({
   description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: 'https://twitter.com/push105501',
-  github: 'https://github.com/floating15',
-  linkedin: 'https://www.linkedin.com/in/haoming-wang-b0a164171/',
+  twitter: 'push105501',
+  github: 'floating15',
+  linkedin: 'haoming-wang-b0a164171/',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 

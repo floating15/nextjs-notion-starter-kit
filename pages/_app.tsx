@@ -19,8 +19,8 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 
-// MATLAB
-import 'prismjs/components/prism-matlab'
+// // MATLAB
+// import 'prismjs/components/prism-matlab'
 
 import * as React from 'react'
 import * as Fathom from 'fathom-client'

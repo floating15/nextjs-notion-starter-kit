@@ -20,7 +20,7 @@ import 'styles/notion.css'
 import 'styles/prism-theme.css'
 
 // // MATLAB
-import 'prismjs/components/prism-matlab.js'
+// import 'prismjs/components/prism-matlab.js'
 
 import * as React from 'react'
 import * as Fathom from 'fathom-client'

@@ -59,7 +59,7 @@ const Code = dynamic(() =>
       import('prismjs/components/prism-less.js'),
       import('prismjs/components/prism-makefile.js'),
       import('prismjs/components/prism-markdown.js'),
-      import('prismjs/components/prism-matlab.js'),
+//       import('prismjs/components/prism-matlab.js'),
       import('prismjs/components/prism-objectivec.js'),
       import('prismjs/components/prism-ocaml.js'),
       import('prismjs/components/prism-python.js'),

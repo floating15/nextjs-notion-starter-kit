@@ -9,22 +9,24 @@ export default siteConfig({
   rootNotionSpaceId: 'wanghaoming',
 
   // basic site info (required)
-  name: 'haoming',
+  name: 'Haoming Wang Blog',
   domain: 'haoming.vercel.app',
-  author: 'haoming',
+  author: 'Haoming Wang',
 
   // open graph metadata (optional)
-  description: 'Personal site of Travis Fischer aka Transitive Bullshit',
+  description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'push105501',
+  github: 'floating15',
+  linkedin: 'haoming-wang-b0a164171/',
+  // newsletter: '#', // optional newsletter URL
+  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://transitivebullsh.it/page-icon.png',
-  defaultPageCover: 'https://transitivebullsh.it/page-cover.jpg',
+  defaultPageIcon: null,
+  defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -33,7 +35,7 @@ export default siteConfig({
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
-  isRedisEnabled: true,
+  isRedisEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
@@ -45,21 +47,22 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  pageUrlAdditions: {
-    '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
-  },
-
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
+//   navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
-      pageId: '8d0062776d0c4afca96eb1ace93a7538'
+      title: 'Notes',
+      pageId: '036b59e356c3491d8d9593682048d683'
     },
     {
-      title: 'Contact',
-      pageId: '9a7ddf2973444067bbc5ce0a4e0e0058'
+      title: 'Posts',
+      pageId: '3c11569d10524ff4a1536e1be831d4f7'
+    },
+    {
+      title: 'About',
+      pageId: 'd0d07d2113864a4295dc899474e638aa'
     }
   ]
 })
